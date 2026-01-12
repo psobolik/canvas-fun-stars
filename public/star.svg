@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Jan 2026 -->
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        viewBox="0 0 110 110">
+    <symbol>
+        <path id="star"
+              stroke-width="2"
+              d="M0,-45
+         L10.485,-13.905
+         L42.797,-13.905
+         L16.245,5.265
+         L26.450,36.405
+         L0,17.1
+         L-26.450,36.405
+         L-16.245,5.265
+         L-42.797,-13.905
+         L-10.485,-13.905 Z"/>
+    </symbol>
+    <use href="#star" fill="blue" stroke="black" transform="translate(65, 65) rotate(-20)"/>
+    <use href="#star" fill="red" stroke="black" transform="translate(45, 40) rotate(20)"/>
+    <use href="#star" fill="white" stroke="black" transform="translate(55, 55) rotate(0)"/>
+</svg>

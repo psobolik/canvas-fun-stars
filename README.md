@@ -1,4 +1,4 @@
-# canvas-fun
+# canvas-fun-stars
 Jan 2026
 
 Just can't get enough of the HTML canvas!

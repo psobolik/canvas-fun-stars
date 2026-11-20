@@ -1,6 +1,6 @@
 import {random} from "./random.ts";
 
-const colors = (r: number, g: number, b: number, o: number = 1) => {
+const colors = (r: number, g: number, b: number, o = 1) => {
   return {
     fillColor: `rgba(${r.toString()}, ${g.toString()}, ${b.toString()}, ${o.toString()})`,
     strokeColor: `rgba(${(255 - r).toString()}, ${(255 - g).toString()}, ${(255 - b).toString()}, ${o.toString()})`
